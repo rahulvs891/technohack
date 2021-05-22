@@ -57,8 +57,8 @@
   position: absolute;
   width: 170px;
   height: 170px;
-  left: px;
-  top: px;
+  left: 0px;
+  top: 0px;
   opacity: 0.5;
 }
 
@@ -101,4 +101,54 @@
 #img1 {
   margin-left: -230px;
   margin-top: 17px;
+}
+
+#img2 {
+  margin-left: -210px;
+  margin-top: 17px;
+}
+
+#img3 {
+  margin-left: -210px;
+  margin-top: 17px;
+}
+
+#img4 {
+  margin-left: -210px;
+  margin-top: 17px;
+}
+
+#img5 {
+  margin-left: -210px;
+  margin-top: 17px;
+}
+
+#img6 {
+  margin-left: -210px;
+  margin-top: 17px;
+}
+#Flag {
+  position: fixed;
+  left: 979px;
+  top: -50px;
+}
+
+#idli {
+  position: fixed;
+  left: 600px;
+  top: 105px;
+  font-family: Roboto;
+  font-style: normal;
+}
+
+.hotel1 {
+  margin-left: 140px;
+  margin-top: -110px;
+  font-family: Roboto;
+}
+
+#rat1 {
+  position: absolute;
+  margin-left: 170px;
+  top: 50px;
 }
