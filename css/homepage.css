@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Adamina&family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 /* font-family: 'Pacifico', cursive; */
 /* font-family: 'Roboto', sans-serif; */
 /* font-family: 'Adamina', serif; */
@@ -10,6 +11,7 @@
   margin: 0;
   padding: 0;
   box-sizing: 0;
+  border: 0;
 }
 body {
   background: #fefcf3;
@@ -72,10 +74,13 @@ a {
   height: 130px;
   color: #000000;
   margin-top: 400px;
+  margin-left: 40px;
 }
 .qm-box {
   margin: 100px 0 50px 50px;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .qm-box .h-img {
   width: 518px;
@@ -91,5 +96,45 @@ a {
     rgba(255, 250, 221, 0.0208333) 90.27%,
     rgba(255, 250, 221, 0) 90.28%
   );
-  padding: 40px 40px 0 0;
+  width: 921px;
+  height: 202px;
+  justify-content: left;
+  border-radius: 20px;
+}
+.sm-box {
+  margin: 100px 0 50px 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.sm-box .h-img {
+  width: 518px;
+  height: 315px;
+  background: url("../images/subscribtionplan.jpg");
+  border-radius: 49px;
+  margin-right: 30px;
+}
+.sm-box .box-content {
+  background: linear-gradient(
+    90deg,
+    #fffadd 1.41%,
+    rgba(255, 250, 221, 0.0208333) 90.27%,
+    rgba(255, 250, 221, 0) 90.28%
+  );
+  width: 921px;
+  height: 202px;
+  justify-content: left;
+  border-radius: 20px;
+}
+.box button {
+  width: 220px;
+  height: 40px;
+  background-color: #fcd949;
+  border-radius: 50px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  font-family: "Roboto Slab", serif;
+  color: #000000;
 }
