@@ -138,3 +138,52 @@ a {
   font-family: "Roboto Slab", serif;
   color: #000000;
 }
+.head1 {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 30px;
+  width: 1440px;
+  height: 93px;
+  background: linear-gradient(
+    90deg,
+    rgba(147, 193, 77, 0.7) 0%,
+    rgba(147, 193, 77, 0) 72.53%
+  );
+}
+.grid-container {
+  margin: 10px;
+  margin-top: 200px;
+  justify-content: space-around;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  height: 500px;
+}
+.grid-item {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 328px;
+  height: 155px;
+}
+.grid-container .grid-item h3 {
+  font-weight: lighter;
+  font-size: 42;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  width: 100px;
+  text-align: center;
+  padding-top: 60px;
+  padding-left: 65px;
+  line-height: 40px;
+}
+.head2 {
+  text-align: right;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 30px;
+  width: 100%;
+  height: 93px;
+  background: linear-gradient(
+    -90deg,
+    rgba(147, 193, 77, 0.7) 0%,
+    rgba(147, 193, 77, 0) 72.53%
+  );
+}
