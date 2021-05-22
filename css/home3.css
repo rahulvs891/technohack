@@ -1,0 +1,56 @@
+body{
+    padding:0;
+    margin:0;
+}
+.aboutus{
+    position: absolute;
+    display: flex;
+    
+}
+.aboutus.left{
+    left: 100px;
+}
+.aboutus .left .circle1{
+    position: relative;
+   
+width: 300px;
+height: 300px;
+left: 59.61px;
+top: 200px;
+border-radius: 100%;
+
+background: #93C14D;
+opacity: 0.8;
+transform: rotate(2.6deg);
+
+}
+.aboutus .left .circle2{
+    position: relative;
+width: 100px;
+height: 100px;
+left: 197px;
+top: -250px;
+border-radius: 100%;
+background: #93C14D;
+opacity: 0.8;
+
+}
+.aboutus .left .circle3{
+    position: relative;
+    
+width: 70px;
+height: 70px;
+left: 370px;
+top: -200px;
+border-radius: 100%;
+
+background: #93C14D;
+opacity: 0.8;
+}
+.aboutus .right{
+    width: 800px;
+    height: auto;
+    margin-top: 220px;
+    margin-left: 220px;
+    font-size: 25px;
+}
