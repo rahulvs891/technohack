@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <link rel= "stylesheet" href = "../css/login.css">
+    </head>
+    <body>
+        <div class="main">
+            
+            <div class="circle"></div>
+            <div class = "login_box">
+                <div class="glass">
+                <h1>Sign In</h1>
+                <div class= "social_media">
+                    <img src = "../images/lp_google.png">
+                    <img src = "../images/logos_facebook.png">
+                </div>
+                <form id = "login-form">
+                    <div class="email">
+                        <img src="../images/lp_email.png"><p>Email</p>
+                        <input type="text" id="login-email" placeholder="Enter your email">
+                    </div>
+                    <div class="email">
+                        <img src="../images/lp_pass.png"><p>Password</p>
+                        <input type="password" id="login-password" placeholder="Enter your Password">
+                    </div>
+                    <input type="submit" id="submit" value="Login">
+                    <p>Or</p>
+                    <a href="#"><div class="otp">
+                        <img src="../images/lp_phone.png"><p>Sign in using OTP</p>
+                    </div></a>
+                    <br>
+                    <br>
+                </form>
+            </div>
+            
+            </div>
+            
+       
+            <div class="side_box">
+                <h1>Welcome back!!</h1>
+                <h3>To check out available food items login with  your personal info</h3>
+                <h2>‘Food Next Door’ takes pride in empowering local home-chefs by helping them showcase their culinary skills. So, every meal you buy at ‘Food Next Door’, results in the upliftment of a home-chef.</h2>
+            </div>
+        </>
+    </div>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-firestore.js"></script>
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+            https://firebase.google.com/docs/web/setup#available-libraries -->
+
+        <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyDvkI_5Uik8_8GVd3E36HYkmzF7J3ePldg",
+            authDomain: "technohack-a45c7.firebaseapp.com",
+            projectId: "technohack-a45c7",
+            storageBucket: "technohack-a45c7.appspot.com",
+            messagingSenderId: "371445543590",
+            appId: "1:371445543590:web:5e206d97fc47165d95fa67"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        
+        const auth = firebase.auth();
+        const db = firebase.firestore();
+
+
+            // uodate firestore sttings
+        db.settings({timestampsInSnapshots: true});
+        </script>
+        <script src ="../css/auth.js"></script>
+        </script>
+    </body>
+</html>
