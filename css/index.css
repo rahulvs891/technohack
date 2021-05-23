@@ -12,7 +12,11 @@ body {
   line-height: 30px;
   color: black;
 }
-
+#logo {
+  position: absolute;
+  top: 30px;
+  left: 10px;
+}
 .container {
   margin-left: 0;
 }
@@ -95,10 +99,12 @@ body {
 }
 .container3 h2 {
   font-size: 45px;
+  color: black;
 }
 .container3 h1 {
   position: relative;
   font-size: 50px;
+  color: #ffffff;
 }
 #whyus {
   text-align: center;
