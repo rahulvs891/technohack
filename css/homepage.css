@@ -46,6 +46,10 @@ a {
   font-size: 30px;
   text-shadow: 10px 4px 4px rgba(0, 0, 0, 0.25);
 }
+#cata:hover {
+  color: #000000;
+  text-decoration: underline;
+}
 .circle {
   width: 1354px;
   height: 1250px;
