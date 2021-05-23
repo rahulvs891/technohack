@@ -1,0 +1,206 @@
+body{
+    background: #fffadd;
+    margin:0px;
+}
+
+.login_box{ 
+    width: 62.2%;
+    float: left;
+    height: 100%;
+    text-align: center;
+    
+}
+.glass{
+    position: absolute;
+    left: 13.96%;
+    right: 56.46%;
+    top: 10.14%;
+    bottom: 26.66%;
+    background: linear-gradient(180deg, #FFFFFF 5.37%, rgba(255, 255, 255, 0) 166.15%) !important;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 50px;
+    height: fit-content;
+}
+.side_box{
+    width: 37.8%;
+    float: right;
+    justify-content: center;
+    background: linear-gradient(179.55deg, #92C14C 0.39%, rgba(146, 193, 76, 0) 113.97%);
+}
+.login_box h1{
+    height: 59px;
+    left: 253px;
+    top: 276px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 59px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #0E7838;
+    margin-bottom: 10px;
+}
+.social_media{
+    width: 192px;
+    height: 57px;
+    left: 308px;
+    top: 355px;
+    margin-left: 105px;
+    background: #92DCD7;
+    border-radius: 25px;
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+.social_media img{
+    margin-left: 5px;
+}
+.email{
+    width: 300px;
+    height: 40px;
+    left: 248px;
+    top: 440px;
+    background: #FFFEFA;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    padding-top:6px;
+
+
+}
+.email img{
+    display: inline;
+    height: 13px;
+    margin-left: 0px;
+}
+.email p{
+    display: inline;
+    width: 76px;
+    height: 23px;
+    left: 275px;
+    top: 451px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    padding:0;
+}
+.email input{
+    border: none;
+    padding-bottom:0;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 17px;
+    outline: none;
+}
+input[type = "submit" i]{
+    width: 126px;
+    height: 26px;
+    left: 355px;
+    top: 572px;
+    margin-top: 10px;
+    background: #C6E3E1;
+    border: 1px solid rgba(0, 0, 0, 0.22);
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+a{
+    text-decoration: none;
+    width: 266px;
+    height: 32px;
+    left: 292px;
+    top: 644px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    
+    color: #000000;
+}
+.otp{
+    width: 244px;
+    height: 37px;
+    left: 292px;
+    top: 637px;
+
+    border: 0.75px solid #000000;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-left: 80px;
+    margin-right: 50px;
+    margin-top: 20px;
+    padding-top: 5px;
+}
+.otp img{
+    height: 17px;
+}
+.otp p{
+    display:inline;
+}
+.side_box h1{
+    left: 956px;
+    top: 119px;
+
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 40px;
+    line-height: 59px;
+    text-align: center;
+
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.side_box h3{
+    width: 464px;
+    height: 135px;
+    left: 938px;
+    top: 282px;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    padding-left:30px;
+    color: #000000;
+}
+.side_box h2{
+    width: 475px;
+    height: 325px;
+    left: 946px;
+    top: 447px;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 41px;
+    padding-left: 40px;
+    color: #000000;
+    text-align: center;
+}
+.circle{
+    position:absolute;
+    width: 475px;
+    height: 74%;
+    left: -155px;
+    border-radius: 5000px;
+    background: #92C14C;
+    opacity: 0.8;
+    top: 345px;
+
+}
+.cm{
+    height:100px;
+}
