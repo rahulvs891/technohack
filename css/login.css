@@ -32,6 +32,7 @@ body {
 .side_box {
   width: 37.8%;
   float: right;
+  height: 750px;
   justify-content: center;
   background: linear-gradient(
     179.55deg,
@@ -201,14 +202,14 @@ a {
   text-align: center;
 }
 .circle {
-  position: absolute;
+  position: relative;
   width: 475px;
   height: 475px;
   left: -115px;
   border-radius: 5000px;
   background: #92c14c;
   opacity: 0.8;
-  top: 305px;
+  top: 200px;
 }
 .cm {
   height: 100px;
