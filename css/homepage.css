@@ -23,25 +23,28 @@ body {
   color: black;
 }
 .container {
-  transform: translateX(-90px);
+  /* transform: translateX(-90px); */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin-top: 50px;
   margin-bottom: 100px;
+  /* margin-right: 100px; */
   justify-content: center;
   align-items: center;
 }
 a {
   text-decoration: none;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 .container-item {
   line-height: 30px;
   text-align: center;
-  /* margin: 5px; */
-  flex-basis: 190px;
+  margin-left: 10px;
+  margin-right: 5px;
+  /* flex-basis: 197px; */
   font-size: 30px;
+  text-shadow: 10px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .circle {
   width: 1354px;
