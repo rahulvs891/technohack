@@ -21,7 +21,6 @@ body {
   font-size: 20px;
   line-height: 30px;
   color: black;
-  font-family: "Adamina", serif;
 }
 .container {
   transform: translateX(-90px);
@@ -303,4 +302,75 @@ a {
   font-family: "Adamina", serif;
   line-height: 40px;
   text-align: justify;
+}
+.review-main {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1300px;
+}
+.review-items {
+  flex-basis: 270px;
+  width: 303px;
+  height: 372px;
+  box-shadow: 9px 9px 14px 1px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 9px 9px 14px 1px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 9px 9px 14px 1px rgba(0, 0, 0, 0.15);
+  margin-bottom: 50px;
+  margin: 70px;
+}
+.review-items span {
+  padding-left: 32px;
+  font-weight: bold;
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+}
+.review-items p {
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 15px;
+}
+.review-items .avatar {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.footer {
+  height: 500px;
+  padding-left: 200px;
+  margin-top: 200px;
+  display: grid;
+  grid-template-columns: 200px 200px 200px 400px;
+  grid-gap: 100px;
+  background-color: #44803e;
+}
+.foot1 {
+  font-family: roboto;
+  font-weight: 400;
+  font-style: normal;
+}
+.foot1 h3 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: #fff6f6;
+  font-weight: 400;
+}
+.foot1 h4 {
+  font-size: 20px;
+  color: #fff6f6;
+  font-weight: lighter;
+}
+.bottom {
+  margin-top: -60px;
+  background-color: #44803e;
+  padding-left: 530px;
+  color: #ffffff;
+  font-family: roboto;
+  font-weight: 700s;
+  letter-spacing: 2px;
 }
