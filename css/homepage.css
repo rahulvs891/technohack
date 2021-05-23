@@ -158,11 +158,24 @@ a {
   grid-template-rows: auto auto;
   height: 500px;
 }
+.bg-food {
+  position: absolute;
+  left: 400px;
+  top: 1500px;
+  z-index: -1;
+}
 .grid-item {
   background-size: cover;
   background-repeat: no-repeat;
   width: 328px;
   height: 155px;
+  box-shadow: 9px 10px 8px 0px rgba(0, 0, 0, 0.11);
+  -webkit-box-shadow: 9px 10px 8px 0px rgba(0, 0, 0, 0.11);
+  -moz-box-shadow: 9px 10px 8px 0px rgba(0, 0, 0, 0.11);
+}
+.grid-item:hover {
+  transform: translateX(10px);
+  transition-duration: 1s;
 }
 .grid-container .grid-item h3 {
   font-weight: lighter;
@@ -186,4 +199,108 @@ a {
     rgba(147, 193, 77, 0.7) 0%,
     rgba(147, 193, 77, 0) 72.53%
   );
+}
+.couponmain {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1300px;
+}
+.couponmain-items {
+  flex-basis: 470px;
+  width: 500px;
+  height: 250px;
+  border: 2px solid black;
+  margin: 50px;
+  box-shadow: 9px 9px 14px 1px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 9px 9px 14px 1px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 9px 9px 14px 1px rgba(0, 0, 0, 0.15);
+}
+.couponmain-items:hover {
+  box-shadow: 9px 10px 5px 0px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 9px 10px 5px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 9px 10px 5px 0px rgba(0, 0, 0, 0.3);
+  transform: translateY(5px);
+  transition-duration: 1s;
+}
+.couponmain-items img {
+  width: 184px;
+  height: 76px;
+}
+.couponmain-items button {
+  width: 150px;
+  height: 40px;
+  background: #fffafa;
+  border: 3px solid #b5d381;
+  font-size: 22px;
+  color: #5d7239;
+  margin-top: 5px;
+}
+.couponmain-items span {
+  font-weight: bold;
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+}
+.couponmain-items p {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+.cpn {
+  position: absolute;
+  left: 0px;
+  top: 3000px;
+  z-index: -1;
+}
+.aboutus {
+  display: flex;
+}
+.aboutus.left {
+  left: 100px;
+}
+.aboutus .left .circle1 {
+  position: relative;
+
+  width: 300px;
+  height: 300px;
+  left: 59.61px;
+  top: 200px;
+  border-radius: 100%;
+
+  background: #93c14d;
+  opacity: 0.8;
+  transform: rotate(2.6deg);
+}
+.aboutus .left .circle2 {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  left: 197px;
+  top: -250px;
+  border-radius: 100%;
+  background: #93c14d;
+  opacity: 0.8;
+}
+.aboutus .left .circle3 {
+  position: relative;
+
+  width: 70px;
+  height: 70px;
+  left: 370px;
+  top: -200px;
+  border-radius: 100%;
+
+  background: #93c14d;
+  opacity: 0.8;
+}
+.aboutus .right {
+  width: 800px;
+  height: auto;
+  margin-top: 70px;
+  margin-left: 220px;
+  font-size: 30px;
+  font-family: "Adamina", serif;
+  line-height: 40px;
+  text-align: justify;
 }
