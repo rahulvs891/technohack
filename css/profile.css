@@ -4,6 +4,8 @@ body {
   background: #fefcf3;
 }
 .main {
+  position: relative;
+  top: 100px;
   display: flex;
   margin-top: -100px;
   width: auto;
@@ -12,6 +14,7 @@ body {
 }
 
 #proheading {
+  margin-top: 40px;
   margin-left: 700px;
   font-size: 35px;
 }
@@ -21,7 +24,6 @@ body {
 }
 
 .container {
-  transform: translateX(-90px);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -29,19 +31,23 @@ body {
   margin-bottom: 100px;
   justify-content: center;
   align-items: center;
+  margin-block: auto;
 }
 a {
   text-decoration: none;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 .container-item {
   line-height: 30px;
   text-align: center;
-  /* margin: 5px; */
-  flex-basis: 190px;
+  flex-basis: 197px;
   font-size: 30px;
+  text-shadow: 10px 4px 4px rgba(0, 0, 0, 0.25);
 }
-
+#cata:hover {
+  color: #43803d;
+  text-decoration: underline;
+}
 .bodyleft .profilebar {
   position: absolute;
   width: 136px;
