@@ -63,8 +63,7 @@ a {
 .heading {
   width: 962px;
   height: 66px;
-  left: 0px;
-  top: 128px;
+  margin-top: 50px;
   background: linear-gradient(
     90deg,
     #6fd266 0%,
