@@ -229,3 +229,7 @@ a {
     rgba(252, 217, 73, 0) 107.91%
   );
 }
+#bgimg {
+  margin-top: -500px;
+  margin-left: 500px;
+}
