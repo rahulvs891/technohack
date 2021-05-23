@@ -2,44 +2,48 @@
 <html>
     <head>
         <title>Login</title>
-        <link rel= "stylesheet" href = "/css/login.css">
+        <link rel= "stylesheet" href = "../css/login.css">
     </head>
     <body>
         <div class="main">
+            
             <div class="circle"></div>
             <div class = "login_box">
                 <div class="glass">
                 <h1>Sign In</h1>
                 <div class= "social_media">
-                    <img src = "/images/lp_google.png">
-                    <img src = "/images/logos_facebook.png">
+                    <img src = "../images/lp_google.png">
+                    <img src = "../images/logos_facebook.png">
                 </div>
                 <form id = "login-form">
                     <div class="email">
-                        <img src="/images/lp_email.png"><p>Email</p>
+                        <img src="../images/lp_email.png"><p>Email</p>
                         <input type="text" id="login-email" placeholder="Enter your email">
                     </div>
                     <div class="email">
-                        <img src="/images/lp_pass.png"><p>Password</p>
+                        <img src="../images/lp_pass.png"><p>Password</p>
                         <input type="password" id="login-password" placeholder="Enter your Password">
                     </div>
                     <input type="submit" id="submit" value="Login">
                     <p>Or</p>
                     <a href="#"><div class="otp">
-                        <img src="/images/lp_phone.png"><p>Sign in using OTP</p>
+                        <img src="../images/lp_phone.png"><p>Sign in using OTP</p>
                     </div></a>
                     <br>
                     <br>
                 </form>
             </div>
+            
             </div>
-            </div>
+            
+       
             <div class="side_box">
                 <h1>Welcome back!!</h1>
                 <h3>To check out available food items login with  your personal info</h3>
                 <h2>‘Food Next Door’ takes pride in empowering local home-chefs by helping them showcase their culinary skills. So, every meal you buy at ‘Food Next Door’, results in the upliftment of a home-chef.</h2>
             </div>
-        </div>
+        </>
+    </div>
         <!-- The core Firebase JS SDK is always required and must be listed first -->
         <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
         <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-auth.js"></script>
@@ -68,7 +72,7 @@
             // uodate firestore sttings
         db.settings({timestampsInSnapshots: true});
         </script>
-        <script src ="/css/auth.js"></script>
+        <script src ="../css/auth.js"></script>
         </script>
     </body>
 </html>
