@@ -218,3 +218,26 @@ a {
   color: #000000;
   margin: 0 100px 20px 100px;
 }
+
+#btn {
+  width: 135px;
+  height: 43px;
+  position: relative;
+  background: #fefcf3;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  font-size: 25px;
+  margin-top: 50px;
+  margin-left: 120px;
+}
+#btn2 {
+  width: 135px;
+  height: 43px;
+  position: relative;
+  background: #fefcf3;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  font-size: 25px;
+  margin-top: 50px;
+  margin-left: 20px;
+}
