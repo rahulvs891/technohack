@@ -22,6 +22,7 @@ body {
   margin-bottom: 100px;
   justify-content: center;
   align-items: center;
+  margin-block: auto;
 }
 a {
   text-decoration: none;
@@ -53,14 +54,18 @@ a {
   background: #43803d;
   box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.25);
   border-radius: 22px;
+  margin-top: 72px;
 }
 .heading {
   width: 962px;
   height: 66px;
   left: 0px;
   top: 128px;
-
-  background: linear-gradient(90deg, #fcd949 0%, rgba(252, 217, 73, 0) 107.91%);
+  background: linear-gradient(
+    90deg,
+    #6fd266 0%,
+    rgba(255, 255, 255, 0) 107.91%
+  );
 }
 .heading p {
   width: 271px;
@@ -159,7 +164,6 @@ a {
 .side_box h1 {
   height: 54px;
   left: 993px;
-  top: 190px;
 
   font-family: Roboto;
   font-style: normal;
@@ -197,6 +201,7 @@ a {
   height: 41px;
   left: 1036px;
   top: 684px;
+  border-radius: 28px;
 
   background: #fdeea8;
   font-family: Roboto;
