@@ -35,6 +35,10 @@ a {
   font-size: 30px;
   text-shadow: 10px 4px 4px rgba(0, 0, 0, 0.25);
 }
+#cata:hover {
+  color: #f6d64a;
+  text-decoration: underline;
+}
 .main {
   width: auto;
   max-height: 700px;
@@ -174,6 +178,7 @@ a {
 
   color: #fff9f9;
 }
+
 .hr {
   height: 0px;
   left: 961px;
